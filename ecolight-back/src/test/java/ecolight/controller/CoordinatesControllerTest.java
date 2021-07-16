@@ -19,7 +19,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @AutoConfigureMockMvc
 class CoordinatesControllerTest {
 
-	private final String URI = "/api/ecolight/count-triangles";
+	private final String URI = "/api/ecolight/triangle-calculator";
 
 	@Autowired
 	private MockMvc mockMvc;
@@ -35,6 +35,6 @@ class CoordinatesControllerTest {
 				.content(json)
 				.accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(jsonPath("$.numberOfTriangles").value(3));	
+				.andExpect(jsonPath("$.numberOfTriangles").value(3));
 	}
 }

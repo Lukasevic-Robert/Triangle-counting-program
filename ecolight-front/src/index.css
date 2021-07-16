@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+  /* background-image: url('./images/isometric-1.jpg'); */
+  background-attachment: fixed;
+  background-color: 'transparent';
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

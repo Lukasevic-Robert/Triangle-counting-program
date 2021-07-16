@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.validation.constraints.NotNull;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,8 +29,8 @@ public class CoordinatesController {
 
 	// using POST over GET because React.js does not support sending body with get request
 	@ResponseStatus(HttpStatus.OK)
-	@PostMapping("/count-triangles")
-	public Map<String, Integer> countTrianglesFromCoordinates(@RequestBody CoordinatesWrapper coordinatesWrapper) {
+	@PostMapping("/triangle-calculator")
+	public Map<String, Integer> countTrianglesFromCoordinates(@NotNull @RequestBody CoordinatesWrapper coordinatesWrapper) {
 		List<Point2D.Double> uniqueCoordinates = coordinatesService
 				.getUniqueListOfCoordinates(coordinatesWrapper.getCoordinates());
 		Map<String, Integer> response = new HashMap<>();
