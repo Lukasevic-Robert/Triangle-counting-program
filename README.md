@@ -19,7 +19,7 @@ _select folder the project was saved in f. ex.:_ G:\Programs\Triangle-counting-p
 ___
 
 ## root page http://localhost:3000/
-Index page is "**/**" or "**/triangle-counting-with-coords**". Here you can see main page of the calculator.  
+Index page is "**/**" or "**/triangle-counting-with-coords**".    
 Buttons "**add / remove**" for adding and removing input fields for coordinates.  
 Button **Clear** - clears all fields, **Submit** - sends request to backend.
 ___
