@@ -21,7 +21,7 @@ ___
 ## root page http://localhost:3000/
 Index page is "**/**" or "**/triangle-counting-with-coords**". Here you can see main page of the calculator.  
 Buttons "**add / remove**" for adding and removing input fields for coordinates.  
-Button "**Clear**" - clears all fields, "**Submit**" - sends request to backend.
+Button **Clear** - clears all fields, **Submit** - sends request to backend.
 ![Triangle-Calculator](ecolight-front/public/screenshots/triangle-calculator.png)
 
 ___
