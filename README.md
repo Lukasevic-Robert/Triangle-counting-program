@@ -1,5 +1,6 @@
 # Triangle Calculator
-The program is designed to count triangles with given X Y coordinates. Backend is **JAVA** (Spring Boot), front is **REACT.js**.
+The program is designed to count triangles with given X Y coordinates.  
+Backend is **JAVA** (Spring Boot), front is **REACT.js**.
 ![Triangle-Calculator](ecolight-front/public/screenshots/triangle-calculator.png)
 ___
 
