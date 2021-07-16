@@ -1,6 +1,6 @@
 # Triangle Calculator
 The program is designed to count triangles with given X Y coordinates. Backend is **JAVA** (Spring Boot), front is **REACT.js**.
-
+![Triangle-Calculator](ecolight-front/public/screenshots/triangle-calculator.png)
 ___
 
 ## Getting started
@@ -22,6 +22,4 @@ ___
 Index page is "**/**" or "**/triangle-counting-with-coords**". Here you can see main page of the calculator.  
 Buttons "**add / remove**" for adding and removing input fields for coordinates.  
 Button **Clear** - clears all fields, **Submit** - sends request to backend.
-![Triangle-Calculator](ecolight-front/public/screenshots/triangle-calculator.png)
-
 ___
