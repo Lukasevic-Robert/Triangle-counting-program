@@ -1,7 +1,6 @@
 package ecolight.service;
 
 import java.awt.geom.Point2D;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -31,7 +30,7 @@ public class CoordinatesService {
 		return getTriangleAreaFromCoordinates(a, b, c) != 0;
 	}
 
-	public List<Point2D.Double> getUniqueListOfCoordinates(ArrayList<Point2D.Double> coordinates) {
+	public List<Point2D.Double> getUniqueListOfCoordinates(List<Point2D.Double> coordinates) {
 		return coordinates.stream().distinct().collect(Collectors.toList());
 	}
 
